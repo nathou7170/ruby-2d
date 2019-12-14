@@ -1,0 +1,16 @@
+# coding: utf-8
+require 'ruby2d'
+
+set width: 1280
+set height: 720
+set title:"Coding Club @ Bruxelles"
+
+Text.new(
+        'Coucou les apprentis codeurs !',
+	x: 25, y: 50,				# Set de la position du texte
+	size: 40,				# Set de la taille du texte
+	color: 'blue',				# Set de la couleur
+	font: './FiraCode-Light.ttf'		# Set de la police (OBLIGATOIRE)
+)
+
+show
